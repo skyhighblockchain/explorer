@@ -1,0 +1,240 @@
+// .block-header {
+//     h3 {
+//         font-weight: 600;
+//         font-size: 25px;
+//         line-height: 32px;
+//         color: #1E1E1E;
+//     }
+
+//     h2 {
+//         font-weight: 600;
+//         font-size: 35px;
+//         line-height: 45px;
+//         color: #1E1E1E;
+//     }
+
+//     .data-count {
+//         background: rgba(49, 188, 60, 0.1);
+//         border-radius: 6px;
+//         font-size: 25px;
+//         line-height: 32px;
+//         font-weight: 600;
+//         color: #31BC3C;
+//         padding: 2px 14px;
+//     }
+
+//     .view-all {
+//         background: rgba(49, 188, 60, 0.1);
+//         border-radius: 0px 9px;
+//         font-weight: 600;
+//         font-size: 18px;
+//         line-height: 23px;
+//         color: #31BC3C;
+//         padding: 5px 22px;
+//     }
+
+//     .instruction {
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 18px;
+//         line-height: 23px;
+//         color: #F8BF50;
+//     }
+
+//     .breadcrumb {
+//         display: flex;
+//         align-items: center;
+//         color: #31BC3C;
+//         font-weight: 500;
+//         font-size: 18px;
+//         line-height: 23px;
+
+//         img {
+//             margin: 0px 14px;
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 1500px) {
+//     .block-header {
+//         h3 {
+//             font-size: 20px;
+//             line-height: 28px;
+//         }
+
+//         h2 {
+//             font-size: 28px;
+//             line-height: 42px;
+//         }
+
+//         .data-count {
+//             font-size: 19px;
+//         }
+
+//         .view-all {
+//             font-size: 16px;
+//             line-height: 23px;
+//         }
+
+//         .instruction {
+//             font-size: 16px;
+//         }
+
+//         .breadcrumb {
+//             font-size: 16px;
+//             line-height: 20px;
+
+//             img {
+//                 width: 100%;
+//                 max-width: 6px;
+//             }
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+.transaction-details {
+    position: fixed;
+    width: 78%;
+    top: 204px;
+
+    .strip-list {
+        max-height: 500px;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+            width: 0.2em;
+        }
+
+        &::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba(169, 169, 169, 0.418);
+            outline: 1px solid rgba(169, 169, 169, 0.418);
+        }
+    }
+
+    @media(max-width:1199px) {
+        width: 96%;
+    }
+}
+
+
+
+.total-skh-wrapper {
+    display: none;
+}
+
+
+.block-header {
+    h3 {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 32px;
+        color: #d7d7d7;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 45px;
+        color: #d7d7d7;
+    }
+
+    .data-count {
+        background: rgba(56, 217, 209, 0.2);
+        color: rgb(56, 217, 209);
+        border-radius: 6px;
+        font-size: 25px;
+        line-height: 32px;
+        font-weight: 600;
+        padding: 2px 14px;
+    }
+
+    .view-all {
+        // background: rgba(49, 188, 60, 0.1);
+        // border-radius: 0px 9px;
+        // font-weight: 600;
+        // font-size: 18px;
+        // line-height: 23px;
+        // color: #31BC3C;
+        // padding: 5px 22px;
+        background: rgba(56, 217, 209, 0.2);
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: rgb(56, 217, 209);
+        padding: 5px 22px;
+    }
+
+    .instruction {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: rgb(56, 217, 209);
+    }
+
+    .breadcrumb {
+        display: flex;
+        align-items: center;
+        color: rgb(56, 217, 209);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+
+        img {
+            margin: 0px 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .block-header {
+        h3 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h2 {
+            font-size: 28px;
+            line-height: 42px;
+        }
+
+        .data-count {
+            font-size: 19px;
+        }
+
+        .view-all {
+            font-size: 16px;
+            line-height: 23px;
+        }
+
+        .instruction {
+            font-size: 16px;
+        }
+
+        .breadcrumb {
+            font-size: 16px;
+            line-height: 20px;
+
+            img {
+                width: 100%;
+                max-width: 6px;
+            }
+        }
+    }
+}
